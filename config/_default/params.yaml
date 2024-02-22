@@ -28,10 +28,10 @@ darkmode: true
 
 # 站点基本信息
 # Site Information Settings
-author: NexT 主题
-subtitle: 为 Hugo 打造的主题
-description: 保持简单的易用性和强大的功能。
-keywords: Hugo,NexT,主题,简单,强大
+author: Nate M
+subtitle: CS Major, QE Minor
+description: having fun breaking everything
+keywords: Virtual Reality
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -59,13 +59,13 @@ customLogo: #/imgs/hugo_next_logo.png
 creativeCommons:
   # 可选配置： by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | cc-zero
   # Available values: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | cc-zero
-  license: by-nc-sa
+  license: by
   # 可选配置： big | small
   # Available values: big | small
   size: big
   # 侧边栏显示
   # Show in sidebar
-  sidebar: true
+  sidebar: false
   # 文章底部显示
   # Show in post footer
   post: true
@@ -162,9 +162,9 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/elkan1788 || fab fa-github
+  social0: Github || https://github.com/nate-moo || fab fa-github
   #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+  # social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -195,7 +195,7 @@ linksSets:
   icon: fa fa-globe
   # 显示标题
   # Show title
-  title: 友情链接
+  title: Links
   # 可选值： block | inline
   # Available values: block | inline
   layout: inline
@@ -206,7 +206,6 @@ linksSets:
 # Usage: `Key: name || permalink`
 links: 
   link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 凡梦星尘空间站 || https://lisenhui.cn
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -240,7 +239,7 @@ footer:
   # 站点开始年份，默认为当下时间的年份
   # Specify the year when the site was setup. 
   # If not defined, current year will be used.
-  since: 2010
+  since: 2024
 
   # 年份和版权信息之间的图标
   # Icon between year and copyright info.
@@ -261,13 +260,13 @@ footer:
 
   # 显示 Hugo 和 NexT 支持
   # Powered by Hugo & NexT
-  powered: true
+  powered: false
 
   # 国内 ICP 备案和公安网备信息
   # Beian ICP and gongan information for Chinese users. 
   # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: true
+    enable: false
     # ICP 备案的具体信息
     icp: 粤ICP备 18047355-1 号
     # 公安网备的省份简称
@@ -278,7 +277,7 @@ footer:
   # 站点支持供应商列表
   # Vendors list who support website. 
   vendors:
-    enable: true
+    enable: false
     # 支持说明
     # Some support information description.
     title: 提供CDN/云资源支持
@@ -290,13 +289,6 @@ footer:
           url: /imgs/vendors/vercel.svg
           width: 50
         link: https://vercel.com
-      - name: 又拍云
-        image: 
-          url: /imgs/vendors/upyun.png
-          width: 43
-        link: https://upyun.com
-      - name: Webify
-        link: https://webify.cloudbase.net
 
 
 # ---------------------------------------------------------------
@@ -346,7 +338,7 @@ postFooter:
   # 通过线条将文章和捐赠等信息隔开，并在线条上添加提示信息
   # Use line to separate post and reward etc other information
   # and add tip title on line.
-  endLineTip: "~ 我可是有底线的哟 ~"
+  endLineTip: "~ :) ~"
   # 是否使用小图标，默认使用 # 符号表示标签
   # Use icon instead of the symbol # to indicate the tag
   tagIcon: true
@@ -357,13 +349,13 @@ rewardSets:
   # 是否开启捐赠按钮，开启后将在每个文章页面底部显示
   # If true, a donate button will be displayed 
   # in every article by default.
-  enable: true
+  enable: false
   # 是否开启捐赠方式的动画效果
   # If true, the donate type title will with animation.
   animation: true
   # 捐赠信息的描述，支持 HTML 语法
   # Comment for donate and suppport HTML syntax
-  comment: '<i class="fa-solid fa-mug-hot"></i>请我喝杯咖啡吧 ヾ(^▽^*)))'
+  comment: '<i class="fa-solid fa-mug-hot"></i>'
   # 捐赠方式
   # 用例： `名称:图像地址`
   # Donate type
@@ -381,14 +373,13 @@ rewardSets:
 followMe:
   #channel0: Twitter || https://twitter.com/username || fab fa-twitter
   #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
-  channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
   channel3: RSS || /atom.xml || fa fa-rss
 
 # 文章的在线编辑
 # Post edit
 # Easily browse and edit blog source code online.
 postEdit:
-  enable: true
+  enable: false
   url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/
 
 
@@ -487,7 +478,7 @@ githubBanner:
   enable: true
   # 你的 Github 仓库地址
   # Your repository url on Github.
-  permalink: https://github.com/hugo-next
+  permalink: https://github.com/nate-moo
   # 关注说明
   # Show this title when cursor move on.
   title: Follow me on GitHub
@@ -639,7 +630,7 @@ quicklink:
 comments:
   # 开启评论组件
   # If true, will show comment component in post end.
-  enable: true   
+  enable: false
   # 设置默认使用的评论插件
   # 可选值：livere | waline | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
