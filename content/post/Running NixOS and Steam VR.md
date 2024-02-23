@@ -3,8 +3,8 @@ title: "Running NixOS and SteamVR"
 description: "This article documents my chaos setting up VR under NixOS"
 keywords: "NixOS,VR"
 
-date: 2024-02-22T22:23:32-07:00
-lastmod: 2024-02-22T22:23:32-07:00
+date: 2024-22-02T21:02:32-07:00
+lastmod: 2024-22-02T21:02:32-07:00
 
 categories:
  - NixOS
