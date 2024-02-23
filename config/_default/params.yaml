@@ -29,8 +29,8 @@ darkmode: true
 # 站点基本信息
 # Site Information Settings
 author: Nate M
-subtitle: CS Major, QE Minor
-description: having fun breaking everything
+subtitle: CS Major, possible QE Minor
+description: having fun breaking reality
 keywords: Virtual Reality
 
 # 不同尺寸站点图标
@@ -205,7 +205,7 @@ linksSets:
 # Links of your friends
 # Usage: `Key: name || permalink`
 links: 
-  link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
+  link0: Hackathon Game || https://environmentalyentropic.naed3r.xyz/web.html
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -246,7 +246,7 @@ footer:
   icon:
     # 图标名称
     # Icon name in Font Awesome.
-    name: fa fa-heart
+    name: fa fa-hippo
     # 开启图标动画效果
     # If you want to animate the icon, set it to true.
     animated: true
